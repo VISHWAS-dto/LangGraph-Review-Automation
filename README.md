@@ -34,7 +34,7 @@ It uses **Large Language Models (LLMs)** and a **workflow-based pipeline (LangGr
 ## Getting Started
 ### 1. Clone the repository
 bash
-git clone https:
+git clone https:https://github.com/VISHWAS-dto/LangGraph-Review-Automation/blob/main/review_reply_workflow.ipynb
 
 ### 2. Install dependencies
 bash
