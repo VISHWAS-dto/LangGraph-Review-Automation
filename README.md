@@ -19,15 +19,29 @@ It uses **Large Language Models (LLMs)** and a **workflow-based pipeline (LangGr
 ---
 
 ## System Architecture
+```
 START
-  ↓
+  |
+  v
 Analyze Sentiment
-  ↓
+  |
+  v
 Check Sentiment
-   ├── Positive → Generate Appreciation Response
-   └── Negative → Diagnose Issue → Generate Response
-  ↓
-END
+  |----------------------|
+  |                      |
+  v                      v
+Positive            Negative
+  |                      |
+  v                      v
+Generate            Diagnose Issue
+Appreciation            |
+Response                v
+                    Generate Response
+  \______________________/
+             |
+             v
+            END
+```
 
 ---
 
