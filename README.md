@@ -10,10 +10,10 @@ It uses **Large Language Models (LLMs)** and a **workflow-based pipeline (LangGr
 ---
 
 ## Features
-- Sentiment Analysis – Classifies reviews as positive or negative  
-- Issue Detection – Identifies problem categories (UX, Performance, Bug, Support, etc.)  
-- Tone Detection – Understands user tone (angry, neutral, calm)  
-- Workflow Automation – Conditional branching using LangGraph  
+- Sentiment Analysis       – Classifies reviews as positive or negative  
+- Issue Detection          – Identifies problem categories (UX, Performance, Bug, Support, etc.)  
+- Tone Detection           – Understands user tone (angry, neutral, calm)  
+- Workflow Automation      – Conditional branching using LangGraph  
 - Auto Response Generation – Generates human-like, context-aware replies  
 
 ---
@@ -26,7 +26,7 @@ It uses **Large Language Models (LLMs)** and a **workflow-based pipeline (LangGr
 ---
 
 ## Project Structure
-├── review_workflow.ipynb   # Core workflow implementation
+├── review_workflow.ipynb  # Core workflow implementation
 ├── README.md              # Project documentation
 
 ---
@@ -34,7 +34,7 @@ It uses **Large Language Models (LLMs)** and a **workflow-based pipeline (LangGr
 ## Getting Started
 ### 1. Clone the repository
 bash
-git clone https://github.com/your-username/reviewmind-ai.git cd reviewmind-ai
+git clone https:
 
 ### 2. Install dependencies
 bash
