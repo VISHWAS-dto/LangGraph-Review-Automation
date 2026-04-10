@@ -18,33 +18,6 @@ It uses **Large Language Models (LLMs)** and a **workflow-based pipeline (LangGr
 
 ---
 
-## System Architecture
-```
-START
-  |
-  v
-Analyze Sentiment
-  |
-  v
-Check Sentiment
-  |----------------------|
-  |                      |
-  v                      v
-Positive            Negative
-  |                      |
-  v                      v
-Generate            Diagnose Issue
-Appreciation            |
-Response                v
-                    Generate Response
-  \______________________/
-             |
-             v
-            END
-```
-
----
-
 ## Tech Stack
 - LLM: LLaMA 3 (via NVIDIA API)  
 - Framework: LangGraph, LangChain  
